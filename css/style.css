@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
 *,
 *::after,
 *::before {
@@ -11,6 +13,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Prata', serif;
 }
 
 #work {
@@ -115,12 +118,12 @@ body {
   font-weight: 400;
   opacity: 0;
   transition: all 0.5s ease;
-  transform: translate(100px,-160px);
+  transform: translate(90px,-160px);
 }
 
 .items:hover .paragh {
   transition: all 0.5s ease;
-  transform: translate(100px,-190px);
+  transform: translate(90px,-190px);
   opacity: 1;
 }
 
@@ -153,12 +156,12 @@ body {
   font-weight: 400;
   opacity: 0;
   transition: all 0.5s ease;
-  transform: translate(120px, -330px);
+  transform: translate(100px, -330px);
 }
 
 .items:hover .paragh-s {
   transition: all 0.5s ease;
-  transform: translate(120px,-360px);
+  transform: translate(100px,-360px);
   opacity: 1;
 }
 
