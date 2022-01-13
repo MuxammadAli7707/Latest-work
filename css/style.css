@@ -13,3 +13,177 @@ body {
   flex-direction: column;
 }
 
+#work {
+  background-color: #fbfbfb;
+  margin-top: 30px;
+}
+
+.portf {
+  margin-top: 30px;
+  color: #f2f2f2;
+  font-weight: 400;
+  font-size: 140px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.heading {
+  color: #252525;
+  text-transform: capitalize;
+  font-size: 38px;
+  letter-spacing: 2px;
+  position: relative;
+  bottom: 90px;
+  font-weight: 400;
+}
+
+.text {
+    color: #8b8b8b;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    bottom: 50px;
+}
+
+.img-list {
+  display: grid;
+  grid-template-columns:  repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.items:nth-child(4) {
+  position: relative;
+  bottom: 390px;
+}
+
+.items:nth-child(5) {
+  position: relative;
+  bottom: 70px;
+}
+
+.items:nth-child(6) {
+  position: relative;
+  bottom: 390px;
+}
+
+.items:nth-child(7) {
+  position: relative;
+  bottom: 460px;
+}
+
+.items:nth-child(8) {
+  position: relative;
+  bottom: 143px;
+}
+
+.items:nth-child(9) {
+  position: relative;
+  bottom: 460px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 40px; 
+  background-color: #715c41;
+  text-transform: uppercase;
+  position: relative;
+  left: 45%;
+  bottom: 450px; 
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.bx {
+  position: relative;
+  left: 41%;
+  bottom: 447px;
+  color: #fff;
+}
+
+.link:hover {
+  transition: all 0.5s ease;
+  background-color: #d1c7bb;
+  color: #3f3d39;
+}
+
+.paragh {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0;
+  transition: all 0.5s ease;
+  transform: translate(100px,-160px);
+}
+
+.items:hover .paragh {
+  transition: all 0.5s ease;
+  transform: translate(100px,-190px);
+  opacity: 1;
+}
+
+.icon {
+  border-radius: 50%;
+  background-color: #715c41;
+  transform: translate(-20px, 350px);
+  padding: 15px 15px;
+  transition: all 0.5s ease;
+  margin-right: 20px;
+  opacity: 0;
+}
+
+.icon:hover {
+  transition: all 0.5s ease;
+  background-color: #d1c7bb;
+  color: #3f3d39;
+}
+
+.items:hover .icon {
+  transition: all 0.5s ease;
+  transform: translate(-20px, 280px);
+  opacity: 1;
+}
+
+.paragh-s {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0;
+  transition: all 0.5s ease;
+  transform: translate(120px, -330px);
+}
+
+.items:hover .paragh-s {
+  transition: all 0.5s ease;
+  transform: translate(120px,-360px);
+  opacity: 1;
+}
+
+.ikon {
+  border-radius: 50%;
+  background-color: #715c41;
+  transform: translate(0px 0px);
+  position: relative;
+  bottom: 180px;
+  padding: 15px 15px;
+  transition: all 0.5s ease;
+  margin-left: -10px;
+  margin-right: 20px;
+  opacity: 0;
+}
+
+.ikon:hover {
+  transition: all 0.5s ease;
+  background-color: #d1c7bb;
+  color: #3f3d39;
+}
+
+.items:hover .ikon {
+  transition: all 0.5s ease;
+  transform: translate(0px, -130px);
+  opacity: 1;
+}
+
